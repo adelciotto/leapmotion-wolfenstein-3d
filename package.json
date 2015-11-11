@@ -1,0 +1,40 @@
+{
+  "name": "leapmotion-wolfenstein-3d",
+  "version": "1.0.0",
+  "description": "Wolfenstein 3D with Leap Motion input",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "NODE_ENV='development' gulp start",
+    "prod": "NODE_ENV='production' gulp start",
+    "build": "NODE_ENV='production' gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adelciotto/leapmotion-wolfenstein-3d.git"
+  },
+  "author": "Anthony Del Ciotto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adelciotto/leapmotion-wolfenstein-3d/issues"
+  },
+  "homepage": "https://github.com/adelciotto/leapmotion-wolfenstein-3d#readme",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "leapjs": "^0.6.4"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.2",
+    "jshint-stylish": "^2.0.1",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.4"
+  }
+}

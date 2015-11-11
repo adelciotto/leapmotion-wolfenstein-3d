@@ -1,0 +1,60 @@
+{
+  /*
+   * ENVIRONMENTS
+   * =================
+   */
+
+  // Define globals exposed by modern browsers.
+  "browser": true,
+
+  // Define globals exposed by Node.js.
+  "node": true,
+
+  // Define globals exposed by vendor libraries
+  "globals": {
+    "Leap": true,
+	"$": true,
+	"Wolf": true
+  },
+
+  // Don't allow ES6.
+  "esnext": false,
+
+  /*
+   * ENFORCING OPTIONS
+   * =================
+   */
+
+  // Force all variable names to use either camelCase style or UPPER_CASE
+  // with underscores.
+  "camelcase": true,
+
+  // Prohibit use of == and != in favor of === and !==.
+  "eqeqeq": true,
+
+  // Enforce tab width of 4 spaces.
+  "indent": 4,
+
+  // Enforce line length to 100 characters
+  "maxlen": 100,
+
+  // Require capitalized names for constructor functions.
+  "newcap": true,
+
+  // Enforce use of double quotation marks for strings.
+  "quotmark": "double",
+
+  // Prohibit use of explicitly undeclared variables.
+  "undef": true,
+
+  // Don't warn when variables are defined but never used.
+  "unused": false,
+
+  /*
+   * RELAXING OPTIONS
+   * =================
+   */
+
+  // Suppress warnings about == null comparisons.
+  "eqnull": true
+}
