@@ -1,0 +1,1 @@
+Wolf.LeapUtils=function(){return{DefaultOpts:{minHandVisible:.25,minHandConfidence:.5,minPinchStrength:.9},Axis:{X:0,Y:1,Z:2,ALL:3},RotAngles:{ROLL:"roll",YAW:"yaw",PITCH:"pitch"},findPinchingFinger:function(i){for(var n,t=500,e=1;5>e;++e){var o=i.fingers[e],r=Leap.vec3.distance(i.thumb.tipPosition,o.tipPosition);o!==i.thumb&&t>r&&(t=r,n=o)}return n}}}();
