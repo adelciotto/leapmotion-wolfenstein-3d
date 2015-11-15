@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# build the source and assets in prod mode
+npm run build
+
+# push the dist folder to the gh pages subtree
+git subtree push --prefix dist origin gh-pages

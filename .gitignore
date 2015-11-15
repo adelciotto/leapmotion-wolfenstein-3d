@@ -1,5 +1,4 @@
 *.DS_Store
 *.pyc
-dist
 node_modules
 

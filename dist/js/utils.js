@@ -1,0 +1,1 @@
+Wolf.Utils=function(){return{objCheckDefaults:function(n,f){for(var e in f)"undefined"==typeof n[e]&&(n[e]=f[e])}}}();
